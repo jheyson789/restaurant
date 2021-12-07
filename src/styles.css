@@ -1,1 +1,72 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --primary-color: #000;
+  --secundary-color: #fff;
+  --cream-color: #f7f5e7;
+  --golde-color: #d0ae5e;
+  --gray-dark-color: #282828;
+  --brow-color: #4e2b1f;
+  --orange-color: #f26149;
+  --font-open: 'Open Sans', sans-serif;;
+  --font-monserant: 'Montserrat', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+body {
+  font-family: var(--font-open);
+  color: #707070;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--font-monserant);
+}
+
+.btn {
+  font-family: var(--font-monserant);
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 10px 12px;
+  cursor: pointer;
+}
+
+.btn-golden {
+  background-color: var(--golde-color);
+  color: #fff;
+  transition: 0.4s;
+}
+
+.btn-golden:hover {
+  color: var(--golde-color);
+  background-color: transparent;
+  border: 1px solid #fff;
+  transition: 0.4s;
+}
+
+.text-white {
+  color: #fff;
+}
+
+
+.btn-outline-white {
+  border: 2px solid #fff;
+  transition: .2s all;
+}
+
+.btn-outline-white:hover {
+  color: var(--orange-color);
+  background-color: #fff;
+  transition: .5s all;
+}
