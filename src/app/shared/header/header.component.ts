@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  public isTop = false
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  @HostListener('window:scroll', ['$event']) onWindowScroll(e:any) {
+    const top = e.target['scrollingElement'].scrollTop
+    this.isTop = top > 20 ? true : false
   }
 
 }

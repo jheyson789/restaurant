@@ -12,17 +12,33 @@
 
 /* background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/bg-image/hero-bg3.jpg') */
 
+.header .navbar {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+  z-index: 1001;
+}
 
-.header .sidebar {
+.navbar .sidebar {
   padding: 25px 150px;
   width: 70vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  position: fixed;
   top: 0;
-  z-index: 1001;
+}
+
+
+.sidebar-scrolling {
+  background-color: #000;
+  border: none !important;
+}
+
+.sidebar-scrolling > .sidebar {
+  padding: 15px 150px;
 }
 
 
@@ -56,7 +72,7 @@ section {
   height: 100%;
   position: absolute;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
 
