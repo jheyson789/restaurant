@@ -38,8 +38,9 @@ h1,h2,h3,h4,h5,h6 {
   border: none;
   outline: none;
   background-color: transparent;
-  padding: 10px 12px;
+  padding: 10px 15px;
   cursor: pointer;
+  font-weight: 600;
 }
 
 .btn-golden {
@@ -53,6 +54,18 @@ h1,h2,h3,h4,h5,h6 {
   background-color: transparent;
   border: 1px solid #fff;
   transition: 0.4s;
+}
+
+.btn-golden-outline {
+  color: var(--golde-color);
+  border: 3px solid var(--golde-color);
+  border-radius: 17px;
+  letter-spacing: 1px;
+}
+
+.btn-golden-outline:hover {
+  color: #000;
+  background-color: var(--golde-color);
 }
 
 .text-white {
