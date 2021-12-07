@@ -70,3 +70,38 @@ h1,h2,h3,h4,h5,h6 {
   background-color: #fff;
   transition: .5s all;
 }
+
+.container {
+  margin: 0 auto;
+}
+
+.mb-40 {
+  margin-bottom: 65px;
+}
+
+
+@media screen and (max-width:576px) {
+  .container {
+    width: 100%;
+  }
+}
+@media screen and (min-width:576px) {
+  .container {
+    width: 540px;
+  }
+}
+@media screen and (min-width:768px) {
+  .container {
+    width: 720px;
+  }
+}
+@media screen and (min-width:992px) {
+  .container {
+  width: 960px;
+  }
+}
+@media screen and (min-width:1200px) {
+  .container {
+    width: 1140px;
+  }
+}
