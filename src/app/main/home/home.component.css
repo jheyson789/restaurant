@@ -1,0 +1,26 @@
+.section-explore {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.section-explore img {
+  width: 100%;
+  height: auto;
+}
+
+.section-explore .section-explore-text h2 {
+  font-weight: 500;
+  font-size: 35px;
+  letter-spacing: 1px;
+  color: var(--brow-color);
+}
+
+.section-explore-text p {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 18px;
+  line-height: 22px;
+}
