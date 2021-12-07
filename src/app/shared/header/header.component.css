@@ -22,8 +22,7 @@
 }
 
 .navbar .sidebar {
-  padding: 25px 150px;
-  width: 70vw;
+  padding: 25px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,7 +37,7 @@
 }
 
 .sidebar-scrolling > .sidebar {
-  padding: 15px 150px;
+  padding: 15px 0;
 }
 
 
