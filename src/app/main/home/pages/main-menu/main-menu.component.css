@@ -28,6 +28,7 @@
 }
 
 .list-menu {
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -36,6 +37,8 @@
   display: flex;
   align-items: center;
   gap: 100px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .item-menu a {
@@ -63,7 +66,9 @@
   font-weight: 600;
 }
 
-.item-menu a:hover > .img-menu {
+.item-menu a:hover > .img-menu,
+.item-menu a p:hover {
   opacity: 1;
+  cursor: pointer;
 }
 
