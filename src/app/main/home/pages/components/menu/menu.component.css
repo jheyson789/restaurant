@@ -1,7 +1,8 @@
 .menu {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 45px 40px;
+  gap: 55px 75px;
+  margin: 65px 0;
 }
 
 
