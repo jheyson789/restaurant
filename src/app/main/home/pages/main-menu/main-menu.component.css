@@ -1,0 +1,74 @@
+.main-menu {
+  background-image: url('/assets/images/restaurant-menu-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-menu .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.main-menu h3 {
+  text-transform: uppercase;
+  color: var(--brow-color);
+  margin-bottom: 20px;
+}
+
+.main-menu .desc-menu {
+  width: 65%;
+  margin: auto auto 45px auto;
+  text-align: center;
+  line-height: 25px;
+
+}
+
+.list-menu {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.list-menu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.item-menu a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-menu.actived-item-menu > a .img-menu {
+  opacity: 1;
+  filter: none;
+}
+
+.item-menu a .img-menu {
+  margin-bottom: 10px;
+  filter: grayscale(100%);
+  opacity: 0.4;
+}
+
+.item-menu a p {
+  color: var(--golde-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.item-menu a:hover > .img-menu,
+.item-menu a p:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+

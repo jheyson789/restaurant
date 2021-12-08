@@ -1,0 +1,17 @@
+<section class="main-menu">
+  <div class="container">
+    <h3 class="title-extra-large">main menu</h3>
+    <p class="desc-menu">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, ea odio voluptatibus et vero labore eius unde molestiae laborum. Animi adipisci sed possimus temporibus! Eaque sint repellat maxime sed illum?</p>
+    <div class="list-menu">
+      <ul>
+        <li class="item-menu" [ngClass]="{'actived-item-menu': isActived === menuItem.title}" *ngFor="let menuItem of itemsMenuData.data" (click)="searchTypeMenu(menuItem.title)">
+          <a>
+            <img [src]="menuItem.icon" alt="menu item" class="img-menu">
+            <p class="text-extra-medium" >{{menuItem.title}}</p>
+         </a>
+        </li>
+      </ul>
+    </div>
+    <app-menu [menuItems]="itemsMenu" ></app-menu>
+  </div>
+</section>

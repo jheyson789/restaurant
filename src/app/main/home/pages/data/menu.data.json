@@ -1,0 +1,214 @@
+{
+  "data": [
+    {
+      "typeMenu": "fish",
+      "data": [
+        {
+          "title": "Jumbo Platter",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price": "15.00"
+        },
+        {
+          "title": "Something Exotic",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price": "35.00"
+        },
+        {
+          "title": "Mediterranean Salad",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price": "21.00"
+        },
+        {
+          "title": "Veg Espetada",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price": "51.00"
+        },
+        {
+          "title": "Algarve Salad",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price": "87.00"
+        },
+        {
+          "title": "Cataplana Algarve",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price": "41.00"
+        }
+      ]      
+    },
+    {
+      "typeMenu":"starters",
+      "data": [
+        {
+          "title":"Green Salad",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"12.00"
+        },
+        {
+          "title":"Appeteaser Platter",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"23.00"
+        },
+        {
+          "title":"Eggs Any Style",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"23.00"
+        },
+        {
+          "title":"Spicy Mixed Olives",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"53.00"
+        },
+        {
+          "title":"Chicken Wings",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"45.00"
+        },
+        {
+          "title":"Wing Roulette",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"25.00"
+        }
+      ]
+    },
+    {
+      "typeMenu":"meat",
+      "data":[
+        {
+          "title":"Grilled Chicken Tenders",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"73.00"
+        },
+        {
+          "title":"Veggie Burger",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"21.00"
+        },
+        {
+          "title":"Whole Chicken",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"23.00"
+        },
+        {
+          "title":"Meal Platter",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"52.00"
+        },
+        {
+          "title":"Chicken Breast Burger",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"43.00"
+        },
+        {
+          "title":"Full Platter",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"27.00"
+        }
+      ]
+    },
+    {
+      "typeMenu":"vegetarian",
+      "data":[
+        {
+          "title":"Spicy Rice",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"41.00"
+        },
+        {
+          "title":"Feta Cheese",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"41.00"
+        },
+        {
+          "title":"Grilled Vegetables",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"42.00"
+        },
+        {
+          "title":"Citrus Bliss",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"54.00"
+        },
+        {
+          "title":"Three Bean Salad",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"21.00"
+        },
+        {
+          "title":"Madeira Red",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"71.00"
+        }
+      ]
+    },
+    {
+      "typeMenu":"deserts",
+      "data":[
+        {
+          "title":"Fruit Juice",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"25.00"
+        },
+        {
+          "title":"Bottled Water",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"12.00"
+        },
+        {
+          "title":"Portuguese Lemonade",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"12.00"
+        },
+        {
+          "title":"Choco Cake",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"55.00"
+        },
+        {
+          "title":"Fresh Lime Soda",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"22.00"
+        },
+        {
+          "title":"Creamy Cheesecake",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"12.00"
+        }
+      ]
+    },
+    {
+      "typeMenu":"drinks",
+      "data":[
+        {
+          "title":"Braised Lamb",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"45.00"
+        },
+        {
+          "title":"Braised Lamb",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"21.00"
+        },
+        {
+          "title":"Dry-Aged Rib-Eye",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"38.00"
+        },
+        {
+          "title":"Dry-Aged Rib-Eye",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"31.00"
+        },
+        {
+          "title":"Eggs Benedict",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"25.00"
+        },
+        {
+          "title":"Eggs Benedict",
+          "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard text.",
+          "price":"12.00"
+        }
+      ]
+    }
+  ]
+}

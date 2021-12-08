@@ -1,0 +1,24 @@
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 55px 75px;
+  margin: 65px 0;
+}
+
+
+
+.card-menu .menu-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-title > * {
+  color: #282828;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.card-menu p {
+  line-height: 25px;
+}

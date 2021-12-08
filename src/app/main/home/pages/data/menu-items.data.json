@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "title":"starters",
+      "icon":"/assets/images/restaurant-menu-iteam01.png"
+    },
+    {
+      "title":"meat",
+      "icon":"/assets/images/restaurant-menu-iteam02.png"
+    },
+    {
+      "title":"fish",
+      "icon":"/assets/images/restaurant-menu-iteam03.png"
+    },
+    {
+      "title":"vegetarian",
+      "icon":"/assets/images/restaurant-menu-iteam04.png"
+    },
+    {
+      "title":"deserts",
+      "icon":"/assets/images/restaurant-menu-iteam05.png"
+    },
+    {
+      "title":"drinks",
+      "icon":"/assets/images/restaurant-menu-iteam06.png"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<div class="menu">
+  <div class="card-menu" *ngFor="let item of menuItems">
+    <div class="menu-title">
+      <h4 class="text-large">{{item.title}}</h4>
+      <div class="text-large price">$ {{item.price}}</div>
+    </div>
+    <p>{{item.description}}</p>
+  </div>
+</div>
