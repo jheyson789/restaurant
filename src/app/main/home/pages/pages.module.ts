@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 import { ServicesMenuComponent } from './services-menu/services-menu.component';
 import { MainMenuComponent } from './main-menu/main-menu.component';
 import { ComponentsModule } from './components/components.module';
+import { GalleryComponent } from './gallery/gallery.component';
 
 
 
 @NgModule({
   declarations: [
     ServicesMenuComponent,
-    MainMenuComponent
+    MainMenuComponent,
+    GalleryComponent
   ],
   imports: [
     CommonModule,
@@ -17,7 +19,8 @@ import { ComponentsModule } from './components/components.module';
   ],
   exports: [
     ServicesMenuComponent,
-    MainMenuComponent
+    MainMenuComponent,
+    GalleryComponent
   ]
 })
 export class PagesModule { }
