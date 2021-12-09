@@ -155,3 +155,26 @@ h1,h2,h3,h4,h5,h6 {
 .section-title-large { font-size: 35px !important; line-height: 39px;}
 .section-title-medium { font-size: 30px !important; line-height: 35px;}
 .section-title-small { font-size: 22px !important; line-height: 26px;}
+
+
+.description-section {
+  width: 65%;
+  margin: auto auto 45px auto;
+  text-align: center;
+  line-height: 25px;
+}
+
+.title-section {
+  text-transform: uppercase;
+  color: var(--brow-color);
+  margin-bottom: 20px;
+}
+
+.container.center-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
