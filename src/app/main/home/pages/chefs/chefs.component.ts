@@ -15,7 +15,7 @@ export class ChefsComponent implements OnInit {
 
     setInterval(() => {
       this.showSlides(this.slideIndex);
-    }, 5000);
+    }, 14000);
   }
 
 
