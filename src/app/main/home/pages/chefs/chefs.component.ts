@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./chefs.component.css']
 })
 export class ChefsComponent implements OnInit {
-  private slideIndex = 1;
+  public slideIndex = 1;
 
   constructor() { }
 
@@ -14,6 +14,7 @@ export class ChefsComponent implements OnInit {
     this.showSlides(this.slideIndex);
 
     setInterval(() => {
+      this.slideIndex += 1
       this.showSlides(this.slideIndex);
     }, 14000);
   }
@@ -21,13 +22,14 @@ export class ChefsComponent implements OnInit {
 
 showSlides(n:number) {
   const slides = document.getElementsByClassName("item-slide");
-  if (n > slides.length) {this.slideIndex = 1}
-  if (n < 1) {this.slideIndex = slides.length}
+  if (n > slides.length) {this.slideIndex = n = 1}
+
   for (let i = 0; i < slides.length; i++) {
       slides[i].classList.remove('d-block')
   }
-  slides[this.slideIndex-1].classList.add('d-block')
-  this.slideIndex += 1
+
+  slides[n-1].classList.add('d-block')
+  this.slideIndex = n
 }
 
 }
