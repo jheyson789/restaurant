@@ -4,6 +4,7 @@ import { ServicesMenuComponent } from './services-menu/services-menu.component';
 import { MainMenuComponent } from './main-menu/main-menu.component';
 import { ComponentsModule } from './components/components.module';
 import { GalleryComponent } from './gallery/gallery.component';
+import { ChefsComponent } from './chefs/chefs.component';
 
 
 
@@ -11,7 +12,8 @@ import { GalleryComponent } from './gallery/gallery.component';
   declarations: [
     ServicesMenuComponent,
     MainMenuComponent,
-    GalleryComponent
+    GalleryComponent,
+    ChefsComponent
   ],
   imports: [
     CommonModule,
@@ -20,7 +22,8 @@ import { GalleryComponent } from './gallery/gallery.component';
   exports: [
     ServicesMenuComponent,
     MainMenuComponent,
-    GalleryComponent
+    GalleryComponent,
+    ChefsComponent
   ]
 })
 export class PagesModule { }
