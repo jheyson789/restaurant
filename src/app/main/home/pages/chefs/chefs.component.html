@@ -30,4 +30,10 @@
       <div class="item-slide-picture"><img src="/assets/images/restaurant-chef-03.jpg" alt="picture the chef"></div>
     </div>
   </div>
+
+  <div class="dots-slider">
+    <span class="dot" [ngClass]="{'active': slideIndex === 1}" (click)="showSlides(1)" ></span>
+    <span class="dot" [ngClass]="{'active': slideIndex === 2}" (click)="showSlides(2)" ></span>
+    <span class="dot" [ngClass]="{'active': slideIndex === 3}" (click)="showSlides(3)" ></span>
+  </div>
 </div>
